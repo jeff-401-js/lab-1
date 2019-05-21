@@ -7,7 +7,7 @@ Jeff
 
 ### Links and Resources
 * [heroku](https://peaceful-reef-59683.herokuapp.com/)
-* [submission PR](https://github.com/jeff-401-js/lab-1/pull/2)
+* [submission PR](https://github.com/jeff-401-js/lab-1/pull/3)
 * [travis](https://www.travis-ci.com/jeff-401-js/lab-1)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
