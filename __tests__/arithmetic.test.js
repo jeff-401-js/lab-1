@@ -3,7 +3,6 @@
 const faker = require('faker');
 
 const arithmetic = require('../lib/arithmetic.js');
-const greet = require('../lib/greet.js');
 
 describe('Arithmetic Module', () => {
 
@@ -44,3 +43,4 @@ describe('Arithmetic Module', () => {
     expect(arithmetic.divide(d, e)).toBeNull();
   });
 });
+
