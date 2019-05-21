@@ -18,6 +18,7 @@ describe('Arithmetic Module', () => {
   it('add should add', () => {
     expect(arithmetic.add(test)).toEqual(a+b+c);
   });
+  
   it('add should not take a string', () => {
     expect(arithmetic.add([d, e])).toBeNull();
   });
@@ -25,6 +26,7 @@ describe('Arithmetic Module', () => {
   it('subtract should subtract', () => {
     expect(arithmetic.subtract(test)).toEqual((a-b-c));
   });
+
   it('subtract should not take a string', () => {
     expect(arithmetic.subtract([d, e])).toBeNull();
   });
@@ -32,6 +34,7 @@ describe('Arithmetic Module', () => {
   it('multiply should multiply', () => {
     expect(arithmetic.multiply(test)).toEqual((a*b*c));
   });
+
   it('multiply should not take a string', () => {
     expect(arithmetic.multiply([d, e])).toBeNull();
   });
@@ -39,8 +42,13 @@ describe('Arithmetic Module', () => {
   it('divide should divide', () => {
     expect(arithmetic.divide(a, b)).toEqual((a/b));
   });
+
   it('divide should not take a string', () => {
     expect(arithmetic.divide(d, e)).toBeNull();
+  });
+
+  it('divide should not take 0', () => {
+    expect(arithmetic.divide(d, 0)).toBeNull();
   });
 });
 
